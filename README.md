@@ -41,3 +41,12 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
 4. Select OctoLapse - Prusa XL - Breit Ideas Inc v0.9 settings.json and click Import.
 5. Click the Printers tab in the OctoLapse setting window.
 6. Click the star icon next to "Prusa XL - Breit Ideas Inc. v0.9" to set it as the default profile for OctoLapse.
+
+# Printing, Shooting Time-lapse Videos, and Known Issues
+If you've completed the configuration sections and connected your Raspberry Pi to the Prusa XL's USB C port, you should be ready to start printing. In PrusaSlicer's settings, I suggested disabling Prusa's bgcode generation for each printing project you do and go with standard gcode, unless you install additional OcotoPrint plugins. I have not tested the OctoPrint bgcode plugin with this setup personally, I just stick with standard gcode.
+
+When you start a print with OctoPrint, do not be surprised if the printer starts its autohoming and bed mesh calibration, then stops for 5-8 minutes - this is the Prusa XL's built in "absorbing heat" feature and you won't see any indication this is what is going on in OcotoPrint or on the Prusa XL's screen, like you would normally see when doing a USB drive based print job. I have not found a way to ask the Prusa XL to skip the absorbing heat step, but my printer does start printing after the same amount of time you'd expect if you did see that "Absorbing Heat" message on the Prusa XL's screen.
+
+I haven't had any trouble with Octolapse settings but you should be aware that your print time can vary widely depending on these settings and the number of tool changes in your print.
+
+On occasion, OcotoPrint may pop up a warning telling you the object(s) you are about to print are too big for the build area. As long as you are confident your print is not bigger than the Prusa XL's max of 360x360x360 mm, try clicking the Print button one more time. I have yet to run into any issues with this workaround and I'm not sure what exactly is causing the 
