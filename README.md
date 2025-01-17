@@ -35,7 +35,7 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
     2. Y: 6000
     3. Z: 200
     4. E: 300
-In the Hotend & extruder tab, configure the following:
+7. In the Hotend & extruder tab, configure the following:
     1. Nozzle Diameter: 0.4 or whatever size you're using, it's not able to accommodate multiple nozzle sizes.
     2. Number of Extruders: 5 or however many you have
     3. Shared Nozzle: Unchecked
@@ -44,8 +44,8 @@ In the Hotend & extruder tab, configure the following:
     6. Offset T3: X: 0 Y: 0
     7. Offset T4: X: 0 Y: 0
     8. Default extrusion length: 5 mm
-6. Click the Confirm button to add the new profile to OctoPrint.
-7. Back on the Printer Profiles screen, click the star icon next to your new printer proflie to make it the default for OctoPrint.
+8. Click the Confirm button to add the new profile to OctoPrint.
+9. Back on the Printer Profiles screen, click the star icon next to your new printer proflie to make it the default for OctoPrint.
 
 
 # OctoLapse Configuration
