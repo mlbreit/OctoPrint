@@ -30,7 +30,8 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
     1. X Coordinates: Min: -10 Max 360
     2. Y Coordinates: Min: 0 Max 360
     3. Z Coordinates: Min -1 MAx: 360
-
+6. Click the Confirm button to add the new profile to OctoPrint.
+7. Back on the Printer Profiles, screen, click the star icon next to your new printer proflie to make it the default for OctoPrint.
 
 
 # OctoLapse Configuration
