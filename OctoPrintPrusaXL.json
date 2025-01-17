@@ -1,0 +1,72 @@
+{
+  "axes": {
+    "e": {
+      "inverted": false,
+      "speed": 300
+    },
+    "x": {
+      "inverted": false,
+      "speed": 6000
+    },
+    "y": {
+      "inverted": false,
+      "speed": 6000
+    },
+    "z": {
+      "inverted": false,
+      "speed": 200
+    }
+  },
+  "color": "default",
+  "current": true,
+  "default": true,
+  "extruder": {
+    "count": 5,
+    "defaultExtrusionLength": 5,
+    "nozzleDiameter": 0.4,
+    "offsets": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "sharedNozzle": false
+  },
+  "heatedBed": true,
+  "heatedChamber": false,
+  "id": "_default",
+  "model": "Prusa XL",
+  "name": "Prusa XL",
+  "resource": "http://xl.local/api/printerprofiles/_default",
+  "volume": {
+    "custom_box": {
+      "x_max": 360.0,
+      "x_min": -10.0,
+      "y_max": 360.0,
+      "y_min": 0.0,
+      "z_max": 360.0,
+      "z_min": -1.0
+    },
+    "depth": 360.0,
+    "formFactor": "rectangular",
+    "height": 360.0,
+    "origin": "lowerleft",
+    "width": 360.0
+  }
+}
