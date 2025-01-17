@@ -30,6 +30,20 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
     1. X Coordinates: Min: -10 Max 360
     2. Y Coordinates: Min: 0 Max 360
     3. Z Coordinates: Min -1 MAx: 360
+6. In the Axes tab's fields, configure the following:
+    1. X: 6000
+    2. Y: 6000
+    3. Z: 200
+    4. E: 300
+In the Hotend & extruder tab, configure the following:
+    1. Nozzle Diameter: 0.4 or whatever size you're using, it's not able to accommodate multiple nozzle sizes.
+    2. Number of Extruders: 5 or however many you have
+    3. Shared Nozzle: Unchecked
+    4. Offset T1: X: 0 Y: 0
+    5. Offset T2: X: 0 Y: 0
+    6. Offset T3: X: 0 Y: 0
+    7. Offset T4: X: 0 Y: 0
+    8. Default extrusion length: 5 mm
 6. Click the Confirm button to add the new profile to OctoPrint.
 7. Back on the Printer Profiles screen, click the star icon next to your new printer proflie to make it the default for OctoPrint.
 
