@@ -8,7 +8,7 @@ I originally created these profiles by modifying the OctoPrint and OctoLapse Pru
 # OcotoPrint Configuration
 OctoPrint reqires that you either maunally enter the printer's information, or use the built in API to upload new printer profiles. 
 
-To get started with the API, clone or download this repo, then check out OcotoPrint's documentation at the following link to learn how to use the API to upload the OctoPrintPrusaXL.json found in this repo: https://docs.octoprint.org/en/master/api/printerprofiles.html
+To get started with the API, clone or download this repo, then check out OctoPrint's documentation at the following link to learn how to use the API to upload the OctoPrintPrusaXL.json found in this repo: https://docs.octoprint.org/en/master/api/printerprofiles.html
 
 To manually configure OctoPrint, follow these steps, ensuring your new printer profile looks like the screenshots in the Screenshots folder within this repo.
 
