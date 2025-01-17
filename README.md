@@ -36,7 +36,7 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
     3. Z: 200
     4. E: 300
 7. In the Hotend & extruder tab, configure the following:
-    1. Nozzle Diameter: 0.4 or whatever size you're using. It's not able to accommodate multiple nozzle sizes, but I do have both 0.4 and 0.6 nozzles installed on my Prusa XL right now. I have this set to 0.4 and am able to use both nozzle sizes just fine so not sure how important this field really is.
+    1. Nozzle Diameter: 0.4 or whatever size you're using. This screen doesn't have multiple fields to accommodate multiple nozzle sizes, but I do have both 0.4 and 0.6 nozzles installed on my Prusa XL right now. I have this field set to 0.4 and am able to use both nozzle sizes just fine so not sure how important this field really is.
     3. Number of Extruders: 5 or however many you have
     4. Shared Nozzle: Unchecked
     5. Offset T1: X: 0 Y: 0
