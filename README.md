@@ -63,4 +63,4 @@ When you start a print with OctoPrint, do not be surprised if the printer starts
 
 I haven't had any trouble with Octolapse settings but you should be aware that your print time can vary widely depending on these settings and the number of tool changes in your print.
 
-On occasion, OcotoPrint may pop up a warning telling you the object(s) you are about to print are too big for the build area. As long as you are confident your print is not bigger than the Prusa XL's max of 360x360x360 mm, try clicking the Print button one more time. I have yet to run into any issues with this workaround and I'm not sure what exactly is causing the popup warning.
+On occasion, **OcotoPrint may pop up a warning telling you the object(s) you are about to print are too big for the build area.** As long as you are confident your print is not bigger than the Prusa XL's max of 360x360x360 mm, try clicking the Print button one more time. I have yet to run into any issues with this workaround and I'm not sure what exactly is causing the popup warning.
