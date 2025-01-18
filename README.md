@@ -27,9 +27,9 @@ To manually configure OctoPrint, follow these steps, ensuring your new printer p
     6. Depth (Y): 360 mm
     7. Height (Z): 360 mm
 5. Custom Bounding Box: Checked
-    1. X Coordinates: Min: -10 Max 360
-    2. Y Coordinates: Min: 0 Max 360
-    3. Z Coordinates: Min -1 MAx: 360
+    1. X Coordinates: Min: -10  Max 360
+    2. Y Coordinates: Min: 0    Max 360
+    3. Z Coordinates: Min: -1   Max: 360
 6. In the Axes tab's fields, configure the following:
     1. X: 6000
     2. Y: 6000
