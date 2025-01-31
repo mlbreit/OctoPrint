@@ -5,7 +5,7 @@ In this repo you will find a couple of files you can import into OctoPrint to en
 
 I originally created these profiles by modifying the OctoPrint and OctoLapse Prusa MINI profiles to have a larger bed area, multiple tool heads, and slightly different x y offsets than the Prusa Mini profiles had.
 
-# OcotoPrint Configuration
+# OctoPrint Configuration
 OctoPrint requires that you either maunally enter the printer's information, or use the built in API to upload new printer profiles. 
 
 To get started with the API, clone or download this repo, then check out OctoPrint's documentation at the following link to learn how to use the API to upload the OctoPrintPrusaXL.json found in this repo: https://docs.octoprint.org/en/master/api/printerprofiles.html
